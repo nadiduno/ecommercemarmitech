@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  --text-color:#000000;
+  --subtext-color:rgba(0, 0, 0, 0.4);
+  --primary-color:#F5F5F5;
+  --secundary-color: #9932cc; 
+  --third-color:#FFEC89;
+  --violet-color:#400A6b;
+}
+.nadiduno{
+  position:absolute;
+  left:0.5rem;
+  top:22rem;
+  padding-top:2rem;
+  opacity:0.6;
+}
+.nadiduno img{
+  height:5rem;
+}
+.nadiduno img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+body {
+  background:var(--primary-color);
+  background: url(./src/Marmitechnadiduno.png);
+  background-size:cover;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  width: 300px;
+  margin-left:18rem;
+  display: grid;
+  align-items:center;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1rem;
+}
+.product {
+  left: 20.56%;
+  right: 20.79%;
+}
+.id{
+  positio:absolute;
+  z-index:3;
+  margin-top:2rem;
+  width: 5rem;
+  height:2rem;
+  color:white;
+  padding:2px;
+  background:var(--violet-color);
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  display:flex;
+  align-items:center;
+}
+img{
+  width: 100%;
+}
+.container{
+  width: 270px;
+  background:var(--primary-color);
+  backdrop-filter: blur(24px);
+}
+.box{
+width:full;
+margin:1rem;
+margin-top:0;
+linear-gradient(346.83deg, rgba(255, 255, 255, 0.6) 9.44%, rgba(255, 255, 255, 0.318) 221.17%);
+backdrop-filter: blur(24px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 21.4606px;
+}
+.details{
+  display: flex;
+  justify-content:between;
+  padding:1rem;
+}
+.box1{
+  width: 100%;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color:var(--subtext-color);
+  line-height: 14px;  
+  text-transform: capitalize;
+}
+.box2{
+  width: 100%;  
+}
+.selector{
+  width: 270px;
+  height:88.21px;
+  display:flex;
+  margin-top:-1rem;
+  justify-content:center;
+  align-items:center;
+  padding:0.4rem;
+}
+.buttonplus{
+    width:80px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+}
+.buttoplus1{
+  width:60%;
+}
+.buttoplus1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.centro{
+  display:block;
+  justify-content:center;
+}
+.number{  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  text-transform: capitalize;
+
+}
+.price{
+  width: 155px;
+  height: 25px;
+  padding-top:2px;
+  background:var(--third-color);
+  border-radius: 44.3333px;
+}
+.buttonminus{
+    width:80px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+  }
+.buttominus1{
+    width:60%;
+  }
+  .buttominus1:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .buy{
+  width: 270px;
+  height: 60px;
+  color:white;
+  background:#1A1A1A;
+  backdrop-filter: blur(33.9048px);
+  border-radius: 53.6825px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.buy1{
+  width: 230px;
+}
+.buy2{
+  width: 15%;
+  margin-right:2rem;
+  animate:
+}
+.buy2:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
